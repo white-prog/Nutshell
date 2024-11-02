@@ -2,18 +2,10 @@
 #include <stdlib.h>    // Standard library for functions like malloc, free, exit
 #include <string.h>    // String manipulation functions like strtok
 #include <unistd.h>    // POSIX operating system API for functions like fork, exec, chdir
+#include "commands.h"
 
 #define MAX_INPUT 1024  // Maximum input length
 
-void execute_command(char *input) {
-    if(strcmp(input,"hello") == 0){
-        printf("Hello\n");
-    }else
-    {
-        printf("I don't programmed for it\n");
-    }
-    
-}  // Temporary empty function it will change when commands.c programs 
 
 int main() {
     char input[MAX_INPUT];   // Array to store user input

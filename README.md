@@ -24,3 +24,11 @@ Nutshell is a c program where we can execute commands.
 - **Makefile**: A file that provides build instructions, allowing you to compile the project with a simple `make` command. It defines how to compile each `.c` file and link them into the final executable, as well as a `clean` target to remove build files.
 
 
+## development status
+
+  - reading user input works
+  - parsing commands works 
+  - connections working
+  - POSIX requirement doesn't work 
+  - No directory changing creating works
+  - only outline of shell works
