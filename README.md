@@ -2,10 +2,10 @@
 Nutshell is a c program where we can execute commands.
 
 ## initial structure of project
->> Main Shell loop => main.c
->> Command handling function => commands.c
->> Header file for commands => commands.h
->> Makefile for building the project
+- Main Shell loop => main.c
+- Command handling function => commands.c
+- Header file for commands => commands.h
+- Makefile for building the project
 
 ## feautures to code...
 
@@ -32,3 +32,4 @@ Nutshell is a c program where we can execute commands.
   - POSIX requirement doesn't work 
   - No directory changing creating works
   - only outline of shell works
+  - **Next task will creating a directory*

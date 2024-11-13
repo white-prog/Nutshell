@@ -21,12 +21,12 @@ void execute_command(char *input) {
     args[i] = NULL;  // Null-terminate the argument list
 
     // Built-in command handling: change directory
-    if (strcmp(args[0], "cd") == 0) {
+    if (strcmp(args[0], "change_directory") == 0) {
         if (args[1] == NULL) {
             fprintf(stderr, "Expected argument to \"cd\"\n");
         } else {
             if (chdir(args[1]) != 0) {  // Attempt to change directory
-                perror("cd error");  // Display error if it fails
+                perror("change_directory error");  // Display error if it fails
             }
         }
     } else {
